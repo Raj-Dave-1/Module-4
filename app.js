@@ -13,7 +13,7 @@ server.on("connection", (stream) => {
 });
 
 server.listen(3000, "localhost", () => {
-    console.log("Listening to server ...");
+    console.log("server Listening ...");
 });
 
 
