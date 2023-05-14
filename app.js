@@ -12,6 +12,8 @@ server.on("connection", (stream) => {
     console.log("Someone is connected");
 });
 
-server.listen(3000);
+server.listen(3000, "localhost", () => {
+    console.log("Listening to server ...");
+});
 
 
